@@ -265,3 +265,16 @@ footer a:hover {
     border-radius: 15px; /* Optional: adds rounded corners */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional: adds a subtle shadow for depth */
 }
+.social-media {
+    margin-top: 40px;
+}
+
+.social-icons a img {
+    width: 40px;
+    margin: 0 15px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.1);
+}
